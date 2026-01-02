@@ -1,0 +1,67 @@
+{
+  "project_info": {
+    "project_number": "969873019382",
+    "project_id": "flix-id-e8c8d",
+    "storage_bucket": "flix-id-e8c8d.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:969873019382:android:2d660b993e6b9b4ccdf7d7",
+        "android_client_info": {
+          "package_name": "com.example.movie_app"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCIPrfUkfGs5pvDuyqvJulSj-yNy4wSIAA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:969873019382:android:3a19874d4c50a7d2cdf7d7",
+        "android_client_info": {
+          "package_name": "com.mobile.flix_id"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCIPrfUkfGs5pvDuyqvJulSj-yNy4wSIAA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:969873019382:android:0402395bc36c223bcdf7d7",
+        "android_client_info": {
+          "package_name": "com.mobile.flixid"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCIPrfUkfGs5pvDuyqvJulSj-yNy4wSIAA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
