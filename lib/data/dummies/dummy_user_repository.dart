@@ -6,13 +6,7 @@ import '../repositories/user_repository.dart';
 
 class DummyUserRepository implements UserRepository {
   @override
-  Future<Result<User>> createUser({
-    required String uid,
-    required String email,
-    required String name,
-    String? photoUrl,
-    int balance = 0,
-  }) {
+  Future<Result<User>> createUser({required User user}) {
     // TODO: implement createUser
     throw UnimplementedError();
   }
