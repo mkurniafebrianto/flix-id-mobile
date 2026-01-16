@@ -1,25 +1,21 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_riverpod/flutter_riverpod.dart';
 
-import '../../../data/firebase/firebase_authentication.dart';
-import '../../../data/firebase/firebase_user_repository.dart';
-import '../../../domain/usecases/login/login.dart';
 import '../../../domain/usecases/login/login_params.dart';
+import '../../providers/usecases/login/login_provider.dart';
 import '../main_page/main_page.dart';
 
-class LoginPage extends StatelessWidget {
+class LoginPage extends ConsumerWidget {
   const LoginPage({super.key});
 
   @override
-  Widget build(BuildContext context) {
+  Widget build(BuildContext context, WidgetRef ref) {
     return Scaffold(
-      appBar: AppBar(title: Text('Login Page')),
+      appBar: AppBar(title: const Text('Login Page')),
       body: Center(
         child: ElevatedButton(
           onPressed: () {
-            final login = Login(
-              authentication: FirebaseAuthentication(),
-              userRepository: FirebaseUserRepository(),
-            );
+            final login = ref.watch(loginProvider);
 
             login
                 .call(
